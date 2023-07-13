@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "217005302145",
+    "project_id": "medicineshop-d92bf",
+    "storage_bucket": "medicineshop-d92bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217005302145:android:72d300e001ca788a800880",
+        "android_client_info": {
+          "package_name": "com.example.medicineshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217005302145-hggj21mhcg2aqedqm1irl5nqdifs6hue.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medicineshop",
+            "certificate_hash": "3fbdfc45bf58658f47cd577e59a2309cbcfd7661"
+          }
+        },
+        {
+          "client_id": "217005302145-ivs0hgafqapogfev3qbl20h6uspro29r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc-loG0iwHJSlTxsaQMSvBuA-XHl-58IM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217005302145-ivs0hgafqapogfev3qbl20h6uspro29r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
