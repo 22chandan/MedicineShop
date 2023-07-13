@@ -85,7 +85,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                       color: Colors.blue,
                                       width: 1,
                                     ),
-                                    image: ProfilePage == ""
+                                    image: ProfilePage == null
                                         ? DecorationImage(
                                             image: AssetImage(
                                                 'assets/profile1.png'))
@@ -291,8 +291,10 @@ class _ProfilePageState extends State<ProfilePage> {
                                 Column(
                                   children: [
                                     CircleAvatar(
-                                      backgroundImage:
-                                          NetworkImage(ProfilePhoto),
+                                      backgroundImage: ProfilePhoto == ""
+                                          ? Image.asset('assets/profile1.png')
+                                              .image
+                                          : NetworkImage(ProfilePhoto),
                                       backgroundColor: Colors.white,
                                       radius: 28,
                                     ),
@@ -303,8 +305,10 @@ class _ProfilePageState extends State<ProfilePage> {
                                   children: [
                                     CircleAvatar(
                                       backgroundColor: Colors.white,
-                                      backgroundImage:
-                                          NetworkImage(ProfilePhoto),
+                                      backgroundImage: ProfilePhoto == ""
+                                          ? Image.asset('assets/profile1.png')
+                                              .image
+                                          : NetworkImage(ProfilePhoto),
                                       radius: 28,
                                     ),
                                     Text("Roz Sod.."),
@@ -313,8 +317,10 @@ class _ProfilePageState extends State<ProfilePage> {
                                 Column(
                                   children: [
                                     CircleAvatar(
-                                      backgroundImage:
-                                          NetworkImage(ProfilePhoto),
+                                      backgroundImage: ProfilePhoto == ""
+                                          ? Image.asset('assets/profile1.png')
+                                              .image
+                                          : NetworkImage(ProfilePhoto),
                                       backgroundColor: Colors.white,
                                       radius: 28,
                                     ),

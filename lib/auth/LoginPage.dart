@@ -117,6 +117,13 @@ class _LoginInState extends State<LoginIn> {
                                 validator: (value) {
                                   if (value!.length < 8) {
                                     return "PassWord must be At Least 6 characters";
+                                  }
+                                  if (!value.contains(RegExp(r'[0-9]'))) {
+                                    return 'Password should contain at least one number';
+                                  }
+                                  if (!value.contains(
+                                      RegExp(r'[!@#$%^&*(),.?":{}|<>]'))) {
+                                    return 'Password should contain at least one special character';
                                   } else {
                                     return null;
                                   }
